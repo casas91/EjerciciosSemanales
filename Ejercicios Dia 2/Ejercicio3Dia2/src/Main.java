@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Main {
     public static void main(String[] args) {
-
+        //Variables
         int Diassemana = 7;
         double[] temperaturas = new double[Diassemana];
 
@@ -25,6 +25,4 @@ public class Ejercicio3 {
 
     }
 }
-
-
 
