@@ -17,6 +17,8 @@ public class Main {
 
         System.out.println("Marca: " +electrodomestico4.getMarca());
 
+        //Al intentar obtener el valor de la marca de electrodomestico4, obtenemos un valor null o vacio.
+
 
 
 
