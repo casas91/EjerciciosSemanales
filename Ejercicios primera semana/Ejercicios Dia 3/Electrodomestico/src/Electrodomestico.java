@@ -56,4 +56,4 @@ public class Electrodomestico {
         this.color = color;
     }
 }
-
+voi

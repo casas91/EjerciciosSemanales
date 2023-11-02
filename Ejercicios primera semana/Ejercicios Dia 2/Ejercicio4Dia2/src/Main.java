@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -46,7 +47,7 @@ public class Main {
                 asiento = scanner.nextInt();
             }
             // Comprobacion de si el asiento está disponible o no.
-            while (asientos[fila][asiento] == " X "){
+            while (Objects.equals(asientos[fila][asiento], " X ")){
                 System.out.println("El asiento ya está reservado, seleccione otro.");
 
                 System.out.println("Introduzca la fila del asiento que quiere reservar (entre 0 y 4)");
